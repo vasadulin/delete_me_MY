@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 asadulinSoftware. All rights reserved.
 //
 //----Asadulin----
+//---Bessmertnij ------
+
 #import "ViewController.h"
 
 @interface ViewController ()
