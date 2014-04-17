@@ -5,6 +5,7 @@
 //  Created by asadulin on 27.03.14.
 //  Copyright (c) 2014 asadulinSoftware. All rights reserved.
 //
+//---Bessmertnij ------
 
 #import "ViewController.h"
 
