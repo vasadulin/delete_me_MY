@@ -41,13 +41,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label333" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCB-6S-Zi6">
+                                <rect key="frame" x="125" y="391" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="EKU-aO-7tJ" secondAttribute="bottom" constant="219" id="Fhn-fA-xHi"/>
                             <constraint firstItem="GzC-8N-lxx" firstAttribute="top" secondItem="3" secondAttribute="top" constant="96" id="L7Z-Bs-YGA"/>
+                            <constraint firstItem="KCB-6S-Zi6" firstAttribute="leading" secondItem="EKU-aO-7tJ" secondAttribute="leading" type="default" id="Plf-Ej-HCd"/>
                             <constraint firstItem="EKU-aO-7tJ" firstAttribute="centerX" secondItem="tP7-wz-aOW" secondAttribute="centerX" type="default" id="QO9-Vy-l6q"/>
                             <constraint firstItem="tP7-wz-aOW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="215" id="RPZ-Yt-cLd"/>
+                            <constraint firstAttribute="bottom" secondItem="KCB-6S-Zi6" secondAttribute="bottom" constant="136" id="Yoc-Ji-vR1"/>
                             <constraint firstItem="EKU-aO-7tJ" firstAttribute="leading" secondItem="GzC-8N-lxx" secondAttribute="leading" type="default" id="sjx-RV-NZt"/>
                             <constraint firstItem="EKU-aO-7tJ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="vBB-e2-Ebz"/>
                         </constraints>
